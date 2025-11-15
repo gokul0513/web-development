@@ -1,107 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-    />
-    <style>
-      div {
-        border: 2px solid;
-      }
-      .title {
-        font-size: 40px;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      .bi {
-        font-size: 60px;
-        color: rgb(10, 164, 253);
-      }
-    </style>
-  </head>
-  <body>
-    <!--row 1- logo,company,icons,welcome,logout-->
-    <div class="row">
-      <div class="col-1">
-        <img src="bmw logo.png" style="width: 100%" alt="" />
-      </div>
-      <div class="col-2 text-center">
-        <span class="title" style="color: rgb(25, 152, 226)">BMW</span>
-      </div>
-      <div class="col-1"><i class="bi bi-car-front"></i></div>
-      <div class="col-3" style="color: rgb(25, 175, 235);   font-weight: bold;">WELCOME,BAYERISCHE MOTOREN WERKE</div>
-      <div class="col-2">
-        <a
-          href="" <i class="bi bi-box-arrow-left" style="font-size: 30px;"></i><br>LOGOUT</a
-        >
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  <style>
+    .title {
+      font-size: 40px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .bi {
+      font-size: 60px;
+      color: rgb(10, 164, 253);
+    }
+  </style>
+</head>
+
+<body>
+  <!--row 1- logo,company,icons,welcome,logout-->
+  <div class="row">
+    <div class="col-1">
+      <img src="bmw logo.png" style="width: 100%" alt="" />
+    </div>
+    <div class="col-4 text-center">
+      <span class="title" style="color: rgb(25, 152, 226)">BMW</span>
+    </div>
+    <div class="col-2"><a href="https://www.bmw.in/en/index.html"><i class="bi bi-car-front"></i></a></div>
+    <div class="col-3" style="color: rgb(25, 175, 235);   font-weight: bold;">WELCOME,BAYERISCHE MOTOREN WERKE</div>
+    <div class="col-2">
+      <a href=""><i class="bi bi-box-arrow-left" style="font-size: 30px;"> <br></i>LOGOUT</a>
+    </div>
+  </div>
+  <!--row-2 menu bar,search -->
+  <div class="row">
+    <div class="col-5">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: rgb(27, 157, 218);">About Bmw</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav" <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" style="color: rgb(24, 132, 204);" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Features of Bmw
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#" style="color: rgb(29, 128, 194);">Speed</a></li>
+                <li><a class="dropdown-item" href="#" style="color: rgb(27, 123, 202);">Mileage</a></li>
+                <li><a class="dropdown-item" href="#" style="color: rgb(27, 94, 180);">Facilities</a></li>
+              </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color: rgb(24, 154, 214);">Model</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: rgb(27, 111, 189);">Colors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: rgb(27, 117, 202);">Brand</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true" style="color: rgb(26, 122, 212);">Price</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="col-3" style="margin-left: 400px;">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="SEARCH THE MODEL NAME OF BMW"
+          aria-label="Recipient’s username" aria-describedby="basic-addon2"
+          style="background-color: rgb(27, 129, 197) ; ">
+        <span class="input-group-text" id="basic-addon2"><i class="bi bi-search" style="font-size: 20px;"></i></span>
       </div>
     </div>
-    <!--row-2 menu bar,search -->
-    <div class="row">
-      <div class="col-2">MENU BAR</div>
-      <div class="col-5">
-      <div class="input-group mb-3">
-  <input type="text" class="form-control" placeholder="SEARCH THE MODEL NAME OF BMW" aria-label="Recipient’s username" aria-describedby="basic-addon2">
-  <span class="input-group-text" id="basic-addon2"><i class="bi bi-search" style="font-size: 20px;"></i></span>
-</div>
-</div>
-      <!--row-3 scrolling text-->
-      <div class="row"></div>
-      <div class="col-12"><marquee behavior="" direction="" style="color: rgb(26, 184, 247); font-weight: bold;"> WELCOME TO MY BMW WORLD!!!</marquee></div>
-      <!--row-4 sliding images-->
-      <div class="row"></div>
-      <div class="col-12"><div
-        id="carouselExampleIndicators"
-        class="carousel slide"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
+    <!--row-3 scrolling text-->
+    <div class="row"></div>
+    <div class="col-12" style="background-color: black;">
+      <marquee behavior="" direction="" style="text-decoration:none; color:rgb(28, 152, 224); font-weight: bold;"> <a
+          href="https://www.bmw.in/en/index.html" style="text-decoration: none;">WELCOME TO MY BMW WORLD!!!</a>|<a
+          href="https://www.google.com/aclk?sa=L&ai=DChsSEwjy7-P_v_OQAxUNzDwCHbkHKxYYACICCAEQABoCc2Y&co=1&ase=2&gclid=CjwKCAiAw9vIBhBBEiwAraSATkh03msfn1hBH-n3jc6X4auCuCXAEuJFVRWxkS1GajVP9-6kyWxixRoC1W0QAvD_BwE&cid=CAASlwHkaLRGD56Yu6L29IxSrhjQBiu9T7stRCjG080lAfbdSOuzGfQxk8_Kx-ZwwU--K03-7aV9roxk7kOvpWGKR01wAfSYm8FkBJBGTQNl98pb2190980_oe6VJYB8ye_0iF7zw0LegiavFBfE7FGw8Aryr6xsWxg_lm0tT0InCFpjK40TLQk3Wranog74fdt0wNJa5UO9EBib&cce=2&category=acrcp_v1_32&sig=AOD64_1DFjwurq9Jky4b4Yo2gt9ptbWscw&q&nis=4&adurl&ved=2ahUKEwj5_9z_v_OQAxVkxTgGHUaXEFEQ0Qx6BAgSEAE"
+          style="text-decoration: none;">
+          Register Here</a>
+        <marquee behavior="" direction="">
+        </marquee>
+      </marquee>
+    </div>
+    <!--row-4 sliding images-->
+    <div class="row"></div>
+    <div class="col-12">
+      <div id="carouselExampleIndicators" class="carousel slide" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button
-            type="button"
-            style="background-color: blue"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            style="background-color: blue"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            style="background-color: blue"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-          <button
-            type="button"
-            style="background-color: blue"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="3"
-            aria-label="Slide 4"
-          ></button>
+          <button type="button" style="background-color: blue" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" style="background-color: blue" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" style="background-color: blue" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" style="background-color: blue" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -117,21 +127,13 @@
             <img src="b1.png" class="d-block w-100" alt="..." />
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev"
-        >
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next"
-        >
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -141,80 +143,50 @@
       <div class="card" style="width: 18rem">
         <div class="card-body">
           <h5 class="card-title">
-            <img src="bmw.jfif" alt="" style="width: 95%" />
+            <img src="gif.gif" alt="" style="width: 95%" />
           </h5>
-          <p class="card-text">
+          <p class="card-text" style="color: rgb(26, 122, 212);">
             bmw:Bayerische Motoren Werke Aktiengesellschaft
           </p>
-          <a
-            href="https://www.bmw.com/en/index.html"
-            class="btn btn-primary"
-            >more</a
-          >
+          <a href="https://www.bmw.com/en/index.html" class="btn btn-primary">more</a>
         </div>
       </div>
       <div class="card" style="width: 18rem">
         <div class="card-body">
           <h5 class="card-title">
-            <img src="bmw.jfif" alt="" style="width: 95%" />
+            <img src="gif2.gif" alt="" style="width: 95%" />
           </h5>
-          <p class="card-text">
+          <p class="card-text" style="color: rgb(26, 122, 212);">
             bmw:Bayerische Motoren Werke Aktiengesellschaft
           </p>
-          <a
-            href="https://www.bmw.com/en/index.html"
-            class="btn btn-primary"
-            >more</a
-          >
+          <a href="https://www.bmw.com/en/index.html" class="btn btn-primary">more</a>
         </div>
       </div>
       <div class="card" style="width: 18rem">
         <div class="card-body">
           <h5 class="card-title">
-            <img src="bmw.jfif" alt="" style="width: 95%" />
+            <img src="gif3.gif" alt="" style="width: 95%" />
           </h5>
-          <p class="card-text">
+          <p class="card-text" style="color: rgb(26, 122, 212);">
             bmw:Bayerische Motoren Werke Aktiengesellschaft
           </p>
-          <a
-            href="https://www.bmw.com/en/index.html"
-            class="btn btn-primary"
-            >more</a
-          >
+          <a href="https://www.bmw.com/en/index.html" class="btn btn-primary">more</a>
         </div>
       </div>
       <div class="card" style="width: 18rem">
         <div class="card-body">
           <h5 class="card-title">
-            <img src="bmw.jfif" alt="" style="width: 95%" />
+            <img src="gif4.gif" alt="" style="width: 95%" />
           </h5>
-          <p class="card-text">
+          <p class="card-text" style="color: rgb(26, 122, 212);">
             bmw:Bayerische Motoren Werke Aktiengesellschaft
           </p>
-          <a
-            href="https://www.bmw.com/en/index.html"
-            class="btn btn-primary"
-            >more</a
-          >
+          <a href="https://www.bmw.com/en/index.html" class="btn btn-primary">more</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem">
-        <div class="card-body">
-          <h5 class="card-title">
-            <img src="bmw.jfif" alt="" style="width: 95%" />
-          </h5>
-          <p class="card-text">
-            bmw:Bayerische Motoren Werke Aktiengesellschaft
-          </p>
-          <a
-            href="https://www.bmw.com/en/index.html"
-            class="btn btn-primary"
-            >more</a
-          >
-        </div>
-      </div>
+
     </div>
-  </body>
+</body>
+
 </html>
 </div>
-      
